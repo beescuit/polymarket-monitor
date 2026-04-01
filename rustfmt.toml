@@ -1,0 +1,5 @@
+# Group imports by category (Std, External Crates, Local)
+group_imports = "StdExternalCrate"
+
+# Ensure all imports are alphabetically sorted
+reorder_imports = true
