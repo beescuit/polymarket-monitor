@@ -6,7 +6,7 @@ This application periodically scans the /events gamma API, listens for new marke
 
 Usage:
 ```sh
-dockr build . -t polymarket-monitor
+docker build . -t polymarket-monitor
 docker run -e PORT=8080 -p 8080:8080 polymarket-monitor
 ```
 
